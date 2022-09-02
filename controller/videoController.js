@@ -1,6 +1,6 @@
 const Appointment = require("../models/appointModel");
 const ErrorHandler = require("../utils/errorHandler");
-const catchAsyncErrors = require("../middleWare/catchAsyncError");
+const catchAsyncErrors = require("../middleware/catchAsyncError");
 const ApiFeatures = require("../utils/apiFeatures");
 const cloudinary = require("cloudinary");
 const sendToken = require("../utils/jwtToken");
