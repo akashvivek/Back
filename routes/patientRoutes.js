@@ -3,7 +3,7 @@ const { newPatientRegister, newPatientAppointment, getRegisteredPatient, getAppo
 const { createAppointReview, getAllPrescPatient, getLastPrescPatient } = require("../controller/videoController");
 
 
-const { isAuthenticatedUser, authorizeRoles } = require("../middleWare/auth");
+const { isAuthenticatedUser, authorizeRoles } = require("../middleware/auth");
 
 const router = express.Router()
 
