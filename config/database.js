@@ -6,9 +6,9 @@ const connectDatabase = () => {
     .then((data) => {
       console.log(`Databe COnnected with server ${data.connection.host}`);
     })
-    // .catch((err) => {
-    //   console.log(err);
-    // }); //as we  have managed catch block by writing unhandled rejection code
+    .catch((err) => {
+      console.log(err);
+    }); //as we  have managed catch block by writing unhandled rejection code
 
 };
 
