@@ -34,11 +34,11 @@ const server = app.listen(process.env.PORT,()=>{
 
 
 //Unhanlded Promise rejection  //error which has occured while i had written mongo instead of mongodb
-process.on("unhandledRejection",err=>{
-    console.log(`Error: ${err.message}`);
-    console.log(`Shutting down server due to unHandled Promise Rejection`)
+// process.on("unhandledRejection",err=>{
+//     console.log(`Error: ${err.message}`);
+//     console.log(`Shutting down server due to unHandled Promise Rejection`)
 
-    server.close(()=>{
-        process.exit(1)
-    })
-})
+//     server.close(()=>{
+//         process.exit(1)
+//     })
+// })
